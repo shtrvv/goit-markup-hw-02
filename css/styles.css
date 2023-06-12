@@ -42,7 +42,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-color);
@@ -58,8 +58,10 @@ body {
 .nav-links .link:focus {
     color: var(--ocean-color);
 } 
-.page-addr .link {
+.page-addr {
     font-style: normal;
+}
+.page-addr .link {
     color: var(--slate-color);
 }
 .page-addr .link:hover,
@@ -76,10 +78,14 @@ body {
 }
 .hero-title {
     font-size: 56px;
-    line-height: 1.2;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--white-color);
 }
 .hero-btn {
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--white-color);
@@ -97,7 +103,9 @@ body {
 }
 .section-title {
     font-size: 36px;
-    line-height: 1.1;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue-color);
 }
@@ -110,6 +118,7 @@ body {
 .team-member {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
     line-height: 1.2;
     color: var(--navy-blue-color);
 }
@@ -146,7 +155,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-color)
